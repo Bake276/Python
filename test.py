@@ -3,39 +3,6 @@ import random, os
 
 
 
-myself = {
-	"first_name": "Thorsten",
-	"last_name": "Becker",
-	"age": 48,
-	"has_cat": True,
-	"fav_food": ["pasta", "meat", "pudding"],
-}
-
-schatzi = {
-	"first_name": "Melanie",
-	"last_name": "Becker",
-	"age": 49,
-	"has_cat": True,
-	"fav_food": ["salad", "tomatoes", "cucumber"],
-}
-
-erk = {
-	"first_name": "Erkan",
-	"last_name": "Yazici",
-	"age": 50,
-	"has_cat": False,
-	"fav_food": ["wodka", "whisky", "beer"],
-}
-
-
-list_of_persons = [myself, schatzi, erk]
-
-
-
-
-
-
-
 # import os
 
 # def calculator():
@@ -203,18 +170,3 @@ def name_shuffler(name):
 
 # print(name_shuffler("Thorsten Becker"))
 
-
-
-
-
-# name = input("Enter name (5 chars min): ")
-
-# if len(name) < 5:
-# 	raise ValueError(f"{name} is not 5 chars or more ...")
-
-# print(f"Hello {name}")
-
-
-
-
-print("".join(sorted("dfjaieh")))
